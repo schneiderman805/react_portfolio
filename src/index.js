@@ -3,7 +3,11 @@ import ReactDOM from "react-dom"
 import Hello from "./Hello"
 import Header from "./Header"
 import Footer from "./Footer"
-import './css/tailwind.css';
+import './css/tailwind.css'
+import Projects from "./Projects"
+import About from "./About";
+import { BrowserRouter } from 'react-router-dom'
+
 
 
 const App = () => {
@@ -20,4 +24,8 @@ const App = () => {
     )
 };
 
-ReactDOM.render(<App />, document.getElementById("app"))
+ReactDOM.render((
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+), document.getElementById('app'));
