@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
   "scripts": {
-    "start": "webpack-dev-server --inline --mode development --open"
+    "build:css": "postcss src/css/tailwind.src.css -o src/css/tailwind.css",
+    "watch:css": "postcss src/css/tailwind.src.css -o src/css/tailwind.css -w",
+    "start": "npm run watch:css & webpack-dev-server --inline --mode development --open",
+    "build": "npm run build:css && webpack --mode production"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,6 +18,7 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
+  
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
