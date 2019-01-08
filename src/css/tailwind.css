@@ -28441,12 +28441,12 @@ table {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #12283a;
-  padding: 1.5rem;
+  background-color: #794acf;
+  padding: 2.5rem;
 }
 
 .header-title {
-  color: #fff;
+  color: #22292f;
   font-size: 1.875rem;
 }
 

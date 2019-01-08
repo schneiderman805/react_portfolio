@@ -1,9 +1,14 @@
 import React from "react"
-
+import UndrawHello from "react-undraw-illustrations/lib/components/UndrawHello/UndrawHello";
 const Hello = () => {
     return (
-        <p className="content-text">Hello World</p>  
-    )
+
+        <div className="flex justify-center object-fill">
+            <UndrawHello height='500px'/>
+        </div>
+    
+        )
+
 }
 
 export default Hello
