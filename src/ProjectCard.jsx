@@ -10,7 +10,7 @@ const ProjectCard = (props) => {
 
             <div className="px-6 py-4" style={{ minHeight: '150px' }} >
                 <div className="font-bold text-xl mb-2">{project.name}</div>
-                <p className="text-grey-darker text-base">
+                <p className="text-purple-dark text-base">
                     {project.description}
                 </p>
             </div>
@@ -20,6 +20,8 @@ const ProjectCard = (props) => {
                     Details
                 </button>
             </div>
+
+            
 
         </div>
     )

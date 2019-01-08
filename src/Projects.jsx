@@ -41,8 +41,8 @@ class Projects extends Component {
         return (
             <div className="content-wrapper">
                 <div className="flex mb-4">
-                    <div className="w-1/4">
-                        <UndrawCoding />
+                    <div className="w-3/4">
+                        <UndrawCoding/>
                     </div>
                     <div className="w-3/4">
                         <h1>My Projects</h1>
