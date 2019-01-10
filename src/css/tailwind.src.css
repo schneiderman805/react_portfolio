@@ -4,16 +4,19 @@
 @tailwind screens;
 
 .page-wrapper {
-    @apply min-h-screen;
+    @apply bg-purple-lighter min-h-screen;
 }
 
 .page-content {
     @apply flex flex-col w-full fixed pin-l pin-y;
 }
 
+.gradient {
+    background-color: rgba(92, 17, 122, 0.5);
+ }
 
 .header {
-    @apply flex items-center justify-between flex-wrap bg-purple-dark p-10;
+    @apply flex-col justify-between flex-wrap;
 }
 
 .header-title {
@@ -25,7 +28,7 @@
 }
 
 .footer-content {
-    @apply flex justify-center text-grey;
+    @apply flex justify-center text-black;
 }
 
 

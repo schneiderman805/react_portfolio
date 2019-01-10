@@ -28423,6 +28423,7 @@ table {
 }
 
 .page-wrapper {
+  background-color: #d6bbfc;
   min-height: 100vh;
 }
 
@@ -28436,13 +28437,14 @@ table {
   bottom: 0;
 }
 
+.gradient {
+  background-color: rgba(92, 17, 122, .5);
+}
+
 .header {
-  display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #794acf;
-  padding: 2.5rem;
 }
 
 .header-title {
@@ -28461,7 +28463,7 @@ table {
 .footer-content {
   display: flex;
   justify-content: center;
-  color: #b8c2cc;
+  color: #22292f;
 }
 
 .content-wrapper {

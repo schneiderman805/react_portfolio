@@ -3,7 +3,7 @@
         "id": 1,
         "name": "My First Website",
         "image": "https://wallimpex.com/data/out/312/san-francisco-wallpaper-6906223.jpg",
-        "description": "This was my first project. The guy lost, but won the popular vote!"
+        "description": "My first ever project that I created durring the Craft Academy boot camp"
     },
     {
         "id": 2,
@@ -13,6 +13,24 @@
     },
     {
         "id": 3,
+        "name": "Mobile UX",
+        "image": "https://media.istockphoto.com/photos/birds-flying-against-purple-landscape-in-the-background-picture-id674844142?k=6&m=674844142&s=612x612&w=0&h=lcOwiMliYTN2dv1m9gEZL7iRS9aAg7cu89VR_fMGuQo=",
+        "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    },
+    {
+        "id": 4,
+        "name": "Mobile UX",
+        "image": "https://media.istockphoto.com/photos/birds-flying-against-purple-landscape-in-the-background-picture-id674844142?k=6&m=674844142&s=612x612&w=0&h=lcOwiMliYTN2dv1m9gEZL7iRS9aAg7cu89VR_fMGuQo=",
+        "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    },
+    {
+        "id": 5,
+        "name": "Mobile UX",
+        "image": "https://media.istockphoto.com/photos/birds-flying-against-purple-landscape-in-the-background-picture-id674844142?k=6&m=674844142&s=612x612&w=0&h=lcOwiMliYTN2dv1m9gEZL7iRS9aAg7cu89VR_fMGuQo=",
+        "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    },
+    {
+        "id": 6,
         "name": "Mobile UX",
         "image": "https://media.istockphoto.com/photos/birds-flying-against-purple-landscape-in-the-background-picture-id674844142?k=6&m=674844142&s=612x612&w=0&h=lcOwiMliYTN2dv1m9gEZL7iRS9aAg7cu89VR_fMGuQo=",
         "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
